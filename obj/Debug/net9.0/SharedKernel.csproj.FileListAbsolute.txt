@@ -11,3 +11,16 @@ C:\MTech\Project\DataWrangler\SharedKernel\obj\Debug\net9.0\SharedKernel.dll
 C:\MTech\Project\DataWrangler\SharedKernel\obj\Debug\net9.0\refint\SharedKernel.dll
 C:\MTech\Project\DataWrangler\SharedKernel\obj\Debug\net9.0\SharedKernel.pdb
 C:\MTech\Project\DataWrangler\SharedKernel\obj\Debug\net9.0\ref\SharedKernel.dll
+C:\MTechProject\SharedKernel\bin\Debug\net9.0\SharedKernel.deps.json
+C:\MTechProject\SharedKernel\bin\Debug\net9.0\SharedKernel.dll
+C:\MTechProject\SharedKernel\bin\Debug\net9.0\SharedKernel.pdb
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.csproj.AssemblyReference.cache
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.AssemblyInfoInputs.cache
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.AssemblyInfo.cs
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.sourcelink.json
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.dll
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\refint\SharedKernel.dll
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\SharedKernel.pdb
+C:\MTechProject\SharedKernel\obj\Debug\net9.0\ref\SharedKernel.dll

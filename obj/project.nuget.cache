@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xNpB0uoMYLU=",
+  "dgSpecHash": "zgQAKc6xz9g=",
   "success": true,
-  "projectFilePath": "C:\\MTech\\Project\\DataWrangler\\SharedKernel\\SharedKernel.csproj",
+  "projectFilePath": "C:\\MTechProject\\SharedKernel\\SharedKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\masstransit\\8.3.4\\masstransit.8.3.4.nupkg.sha512",
