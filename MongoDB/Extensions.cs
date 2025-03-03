@@ -38,5 +38,18 @@ namespace SharedKernel.MongoDB
 
             return services;
         }
+
+       /* public static IServiceCollection AddRedisCache(this IServiceCollection services)           
+        {
+            services.AddTransient(serviceProvider =>
+            {
+                var configuration = serviceProvider.GetService<IConfiguration>();                
+                var redisSettings = configuration.GetSection(nameof(MongoDbSettings)).Get<RedisCacheSettings>();
+                return new RedisCacheService(redisSettings.ConnectionString);
+                
+            });
+
+            return services;
+        }*/
     }
 }

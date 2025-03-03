@@ -1,0 +1,38 @@
+version: "3.8"
+
+services: 
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - 27018:27017  # Expose MongoDB on port 27018
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin  # Set the username
+      MONGO_INITDB_ROOT_PASSWORD: password  # Set the password
+    volumes: 
+      - mongodbdata:/data/dbdocker
+
+  redis:
+    image: redis:latest
+    container_name: redis_server
+    restart: always
+    ports:
+      - "6379:6379"  # Expose Redis on default port
+    volumes:
+      - redis_data:/data
+    command: ["redis-server", "--appendonly", "yes"]
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    ports: 
+      - 5672:5672      # RabbitMQ message broker
+      - 15672:15672    # RabbitMQ management UI
+    volumes:
+      - rabbitmqdata:/var/lib/rabbitmq
+    hostname: rabbitmq
+
+volumes: 
+  mongodbdata:
+  redis_data:
+  rabbitmqdata:

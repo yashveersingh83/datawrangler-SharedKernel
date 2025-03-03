@@ -12,4 +12,5 @@ namespace SharedKernel
         Task RemoveAsync(Guid id);
         Task UpdateAsync(T entity);
     }
+
 }
