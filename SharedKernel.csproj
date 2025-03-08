@@ -4,6 +4,14 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>DataWrangler.SharedKernel</PackageId>
+    <Version>1.0.2</Version> <!-- Use semantic versioning -->
+    <Authors>Yashveer Singh </Authors>
+    <Description>A shared kernel library for .NET microservices. for mongodb , redis and rabitmq connection </Description>
+    <PackageTags>shared kernel, microservices</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <PackageReadmeFile>Readme.md</PackageReadmeFile>
   </PropertyGroup>
    <ItemGroup>
     <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
@@ -15,5 +23,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="StackExchange.Redis" Version="2.8.24" />
   </ItemGroup>
+	<ItemGroup>
+		<None Include="LICENSE" Pack="true" PackagePath="" />
+		<None Include="Readme.md" Pack="true" PackagePath="" />
+	</ItemGroup>
 
 </Project>
