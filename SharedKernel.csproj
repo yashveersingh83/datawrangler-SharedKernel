@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>DataWrangler.SharedKernel</PackageId>
-    <Version>1.0.2</Version> <!-- Use semantic versioning -->
+    <Version>1.0.9</Version> <!-- Use semantic versioning -->
     <Authors>Yashveer Singh </Authors>
     <Description>A shared kernel library for .NET microservices. for mongodb , redis and rabitmq connection </Description>
     <PackageTags>shared kernel, microservices</PackageTags>
